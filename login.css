@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: rgb(255,255,255);
+    width: 270px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.5),
+    10px 10px 15px rgba(0,0,0,0.5);
+    padding: 50px;
+}
+h1{
+    text-align: center;
+}
+.social media{
+    text-align: center;
+    margin: 20px 15px 10px 0px;
+    font-size: 18px;
+}
+.fab{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 18px;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+}
+form{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+label{
+    font-size: 17px;
+}
+input{
+    width: 280px;
+    height: 28px;
+    padding: 15px 10px;
+    margin: 10px 0px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 15px;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+}
+.rememberandforgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input[type="submit"]{
+    padding: 0px;
+    background-image:linear linearGradient(to right rgb(173,31,173),rgb(91,26,176));
+    background-color: rgb(255,255,255);
+    border:none;
+    border-radius:10px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
